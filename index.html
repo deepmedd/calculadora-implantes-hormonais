@@ -27,7 +27,11 @@ body { padding-bottom: 60px; }
 .clinic-name { font-size: 11px; font-weight: 600; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; }
 .doc-title { font-size: 20px; font-weight: 600; color: var(--text-primary); line-height: 1.2; }
 .doc-subtitle { font-size: 13px; color: var(--text-secondary); margin-top: 3px; }
-.badge-version { margin-left: auto; background: var(--bg-accent); color: var(--text-accent); font-size: 11px; padding: 4px 10px; border-radius: var(--radius); font-weight: 600; white-space: nowrap; }
+.badge-version { background: var(--bg-accent); color: var(--text-accent); font-size: 11px; padding: 4px 10px; border-radius: var(--radius); font-weight: 600; white-space: nowrap; }
+.header-right { margin-left: auto; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.contact-block { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.contact-link { font-size: 11px; color: var(--text-secondary); text-decoration: none; white-space: nowrap; }
+.contact-link:hover { color: var(--text-accent); text-decoration: underline; }
 
 .nav { display: flex; border-bottom: 0.5px solid var(--border); overflow-x: auto; padding: 0 24px; position: sticky; top: 0; z-index: 20; background: var(--surface-1); }
 .nav-btn { background: none; border: none; border-bottom: 2px solid transparent; padding: 11px 13px; font-size: 12.5px; font-weight: 500; color: var(--text-secondary); cursor: pointer; white-space: nowrap; transition: .15s; font-family: inherit; }
@@ -199,7 +203,13 @@ body { padding-bottom: 60px; }
       <span class="doc-title">Calculadora de Implantes Hormonais</span>
       <span class="doc-subtitle">Titulação por exame · testosterona livre (Vermeulen) · segurança · histórico</span>
     </div>
-    <span class="badge-version">Rev. 2026 · v4</span>
+    <div class="header-right">
+      <span class="badge-version">Rev. 2026 · v4</span>
+      <div class="contact-block">
+        <a class="contact-link" href="https://instagram.com/dr.christiangraciola" target="_blank" rel="noopener">@dr.christiangraciola</a>
+        <a class="contact-link" href="https://wa.me/5554999692785" target="_blank" rel="noopener">WhatsApp: 54 99969-2785</a>
+      </div>
+    </div>
   </div>
 
   <div class="nav">
